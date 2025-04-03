@@ -34,6 +34,6 @@ This app uses [Weather API](https://api.openweathermap.org/data/2.5/weather?unit
 ## 🚀 How to Run the Project  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/weather-app.git
+   git clone https://github.com/your-username/Weather-App.git
    ```
 2. Open `index.html` in your browser  
