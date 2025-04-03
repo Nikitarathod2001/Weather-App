@@ -17,7 +17,10 @@ const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q="
 async function getWeatherData(cityName) {
   let response = await fetch(apiUrl + cityName + `&appid=${apiKey}`);
 
-  if(response.status != 200) {
+  if(cityName == "") {
+    alert("Please enter city name.");
+  }
+  else if(response.status != 200) {
     error.style.display = "block";
     weather.style.display = "none";
   }
